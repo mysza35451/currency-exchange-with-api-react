@@ -71,3 +71,26 @@ p {
   margin: auto;
   text-align: center;
 }
+
+.box-bottom {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 70%;
+  justify-content: center;
+}
+
+select,
+input {
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+label {
+  margin-right: 10px;
+  text-align: left;
+  font-weight: bolder;
+}
